@@ -14,3 +14,35 @@ p{
 .imagen{
     max-width: 280px;
 }
+
+
+
+/* Doy movimiento a la flecha*/
+@keyframes movHor {
+
+    0% {
+      top: 10px; }
+    25% {
+      top: 20px; }
+    50% {
+      top: 30px; }
+    75% {
+      top: 20px; }
+    100% {
+      top: 10px; } }
+  
+  .movimiento {
+    position: relative;
+    animation-name: movHor;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite; }
+
+
+
+@media  (max-width: 777px) {
+    .no-responsive{
+        display: none;
+    }
+}
