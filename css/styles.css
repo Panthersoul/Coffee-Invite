@@ -1,4 +1,16 @@
-.fondo{
-    background-color: yellow;
+body{
+    font-family: 'Architects Daughter', cursive !important;
+}
 
+p{
+    font-size: x-large;
+}
+
+.fondo{
+    background-color: #eee460;
+
+}
+
+.imagen{
+    max-width: 280px;
 }
